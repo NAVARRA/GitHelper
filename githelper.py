@@ -113,7 +113,7 @@ class Application(ttk.Frame):
         
         file = Menu(menu)
         file.add_command(label="Exit", command=self.quit)
-        menu.add_cascade(label="Datei", menu=file)
+        menu.add_cascade(label="File", menu=file)
         
         about = Menu(menu)
         about.add_command(label="Navarra Software Solutions", command=self.about)
